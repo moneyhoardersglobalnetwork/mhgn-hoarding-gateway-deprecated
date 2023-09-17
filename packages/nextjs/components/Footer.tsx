@@ -13,7 +13,7 @@ export const Footer = () => {
   const nativeCurrencyPrice = useGlobalState(state => state.nativeCurrencyPrice);
 
   return (
-    <div className="min-h-0 p-5 mb-11 lg:mb-0">
+    <div className="bg-accent min-h-0 p-5 mb-11 lg:mb-0">
       <div>
         <div className="fixed flex justify-between items-center w-full z-10 p-4 bottom-0 left-0 pointer-events-none">
           <div className="flex space-x-2 pointer-events-auto">
@@ -33,7 +33,7 @@ export const Footer = () => {
           <div className="flex justify-center items-center gap-2 text-sm w-full">
             <div>
               <a
-                href="https://github.com/scaffold-eth/se-2"
+                href="https://github.com/moneyhoardersglobalnetwork/mhgn-hoarding-gateway-sepolia"
                 target="_blank"
                 rel="noreferrer"
                 className="underline underline-offset-2"
@@ -43,14 +43,14 @@ export const Footer = () => {
             </div>
             <span>·</span>
             <div>
-              Built with <HeartIcon className="inline-block h-4 w-4" /> at 🏰{" "}
+              Built with <HeartIcon className="inline-block h-4 w-4" /> by 🏰{" "}
               <a
                 href="https://buidlguidl.com/"
                 target="_blank"
                 rel="noreferrer"
                 className="underline underline-offset-2"
               >
-                BuidlGuidl
+                M.H.G.N Core Devs + BuidlGuidl
               </a>
             </div>
             <span>·</span>
