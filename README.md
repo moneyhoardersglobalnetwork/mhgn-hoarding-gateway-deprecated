@@ -10,7 +10,8 @@
   <a href="https://scaffoldeth.io">Website</a>
 </h4>
 
-🧪 An open-source, up-to-date toolkit for building decentralized applications (dapps) on the Ethereum blockchain. It's designed to make it easier for developers to create and deploy smart contracts and build user interfaces that interact with those contracts.
+🧪 The M.H.G.N Hoarding Gateway is in active development. We currently are working on integrating with Chainlink CCIP and leveraging the power of USDC as a cross-chain 
+digital asset to bring more value to the Blocks of Passion Protocol and M.H.G.N ecosystem as a whole.
 
 M.H.G.N is developing on-top of the Scaffold-Eth-2 code base so as new smart contracts and repo's are shipped out by the core devs you can join in from testing to mainnet!
 
@@ -37,8 +38,8 @@ To get started with M.H.G.N Hoarding Gateway, follow the steps below:
 1. Clone this repo & install dependencies
 
 ```
-git clone https://github.com/moneyhoardersglobalnetwork/mhgn-hoarding-gateway-v.0.0.1.git
-cd mhgn-hoarding-gateway-v.0.0.1
+git clone https://github.com/moneyhoardersglobalnetwork/mhgn-hoarding-gateway-full.git
+cd mhgn-hoarding-gateway-full
 yarn install
 ```
 
