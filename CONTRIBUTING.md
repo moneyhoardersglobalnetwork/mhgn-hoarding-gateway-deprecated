@@ -1,6 +1,6 @@
-# Welcome to Scaffold-ETH 2 Contributing Guide
+# Welcome to MHGN Hoarding Gateway Contributing Guide
 
-Thank you for investing your time in contributing to Scaffold-ETH 2!
+Thank you for investing your time in contributing to MHGN Hoarding Gateway!
 
 This guide aims to provide an overview of the contribution workflow to help us make the contribution process effective for everyone involved.
 

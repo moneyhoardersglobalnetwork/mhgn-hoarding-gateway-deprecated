@@ -85,6 +85,13 @@ Visit our [docs](https://docs.scaffoldeth.io) to learn how to start building wit
 
 To know more about its features, check out our [website](https://scaffoldeth.io).
 
+Soon you will be able to visit our [docs](https://docs.hoarderlabs.moneyhoardersglobal.net) to learn how to start building with Scaffold-ETH 2.
+
+For all things M.H.G.N, check out our [website](https://moneyhoardersglobal.net).
+
+
+
+
 ## Contributing to Scaffold-ETH 2
 
 We welcome contributions to Scaffold-ETH 2!

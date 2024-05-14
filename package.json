@@ -39,6 +39,7 @@
   },
   "dependencies": {
     "@chainlink/contracts": "^0.6.1",
-    "ethers": "^6.7.1"
+    "ethers": "^6.7.1",
+    "next": "^14.2.3"
   }
 }
