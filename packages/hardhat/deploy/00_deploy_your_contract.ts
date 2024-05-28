@@ -20,31 +20,10 @@ const deployYourContract: DeployFunction = async function (hre: HardhatRuntimeEn
   */
   const { deployer } = await hre.getNamedAccounts();
   const { deploy } = hre.deployments;
-  //const exampleExternalContract = await hre.deployments.get("ExampleExternalContract");
-  const tokenAddress = "0x649220e012e6D760502964b56B5a7E387084cA8C"; // MHGD token
-  //const _tokenAddress = "0x76f9d116a4263b0b193E3174bC5b52946B10548b"; //BOP token
- 
-  /*
-  await deploy("ExampleExternalContract", {
-    from: deployer,
-    // Contract constructor arguments
-    args: [],
-    log: true,
-    // autoMine: can be passed to the deploy function to make the deployment process faster on local networks by
-    // automatically mining the contract deployment transaction. There is no effect on live networks.
-    autoMine: true,
-  });
-
-  await deploy("Staker", {
-    from: deployer,
-    // Contract constructor arguments
-    args: [exampleExternalContract.address],
-    log: true,
-    // autoMine: can be passed to the deploy function to make the deployment process faster on local networks by
-    // automatically mining the contract deployment transaction. There is no effect on live networks.
-    autoMine: true,
-  });
-
+  
+  //const tokenAddress = "0x649220e012e6D760502964b56B5a7E387084cA8C"; // MHGD token
+  const _tokenAddress = "0x76f9d116a4263b0b193E3174bC5b52946B10548b"; //BOP token
+ /*
   await deploy("YourContract", {
     from: deployer,
     // Contract constructor arguments
@@ -74,38 +53,8 @@ const deployYourContract: DeployFunction = async function (hre: HardhatRuntimeEn
     // automatically mining the contract deployment transaction. There is no effect on live networks.
     autoMine: true,
   });
-
-  await deploy("Counter", {
-    from: deployer,
-    // Contract constructor arguments
-    args: [],
-    log: true,
-    // autoMine: can be passed to the deploy function to make the deployment process faster on local networks by
-    // automatically mining the contract deployment transaction. There is no effect on live networks.
-    autoMine: true,
-  });
-
-  await deploy("MHGDminter", {
-    from: deployer,
-    // Contract constructor arguments
-    args: [tokenAddress],
-    log: true,
-    // autoMine: can be passed to the deploy function to make the deployment process faster on local networks by
-    // automatically mining the contract deployment transaction. There is no effect on live networks.
-    autoMine: true,
-  });
-
-  await deploy("StableCoin", {
-    from: deployer,
-    // Contract constructor arguments
-    args: [],
-    log: true,
-    // autoMine: can be passed to the deploy function to make the deployment process faster on local networks by
-    // automatically mining the contract deployment transaction. There is no effect on live networks.
-    autoMine: true,
-  });
 */
-  await deploy("MhgdDaiMint2", {
+  await deploy("MhgdUsdcMint", {
     from: deployer,
     // Contract constructor arguments
     args: [deployer],
@@ -115,26 +64,6 @@ const deployYourContract: DeployFunction = async function (hre: HardhatRuntimeEn
     autoMine: true,
   });
   /*
-  await deploy("MHGDauto", {
-    from: deployer,
-    // Contract constructor arguments
-    args: [updateInterval, tokenMinter],
-    log: true,
-    // autoMine: can be passed to the deploy function to make the deployment process faster on local networks by
-    // automatically mining the contract deployment transaction. There is no effect on live networks.
-    autoMine: true,
-  });
-
-  await deploy("MHGDraffle", {
-    from: deployer,
-    // Contract constructor arguments
-    args: [],
-    log: true,
-    // autoMine: can be passed to the deploy function to make the deployment process faster on local networks by
-    // automatically mining the contract deployment transaction. There is no effect on live networks.
-    autoMine: true,
-  });
-
   await deploy("BopHoardingContract", {
     from: deployer,
     // Contract constructor arguments
@@ -154,7 +83,7 @@ const deployYourContract: DeployFunction = async function (hre: HardhatRuntimeEn
     // automatically mining the contract deployment transaction. There is no effect on live networks.
     autoMine: true,
   });
-/*
+
   await deploy("BopFaucetContract", {
     from: deployer,
     // Contract constructor arguments
