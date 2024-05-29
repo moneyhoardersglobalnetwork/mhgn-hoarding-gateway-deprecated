@@ -40,9 +40,21 @@ export const Header = () => {
         <NavLink href="/">Home</NavLink>
       </li>
       <li>
+        <NavLink href="/bop-ui">
+          <CurrencyDollarIcon className="h-4 w-4" />
+          BOP UI
+        </NavLink>
+      </li>
+      <li>
         <NavLink href="/mhgd-ui">
           <BanknotesIcon className="h-4 w-4" />
           MHGD UI
+        </NavLink>
+      </li>
+      <li>
+        <NavLink href="/usdc-mint-ui">
+          <SparklesIcon className="h-4 w-4" />
+          MHGD-USDC MINT
         </NavLink>
       </li>
       <li>
@@ -52,21 +64,9 @@ export const Header = () => {
         </NavLink>
       </li>
       <li>
-        <NavLink href="/bop-ui">
-          <CurrencyDollarIcon className="h-4 w-4" />
-          BOP UI
-        </NavLink>
-      </li>
-      <li>
         <NavLink href="/debug">
           <BugAntIcon className="h-4 w-4" />
           Debug Contracts
-        </NavLink>
-      </li>
-      <li>
-        <NavLink href="/blockexplorer">
-          <MagnifyingGlassIcon className="h-4 w-4" />
-          Block Explorer
         </NavLink>
       </li>
     </>

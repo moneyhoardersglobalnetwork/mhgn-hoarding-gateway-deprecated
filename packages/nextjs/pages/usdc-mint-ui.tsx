@@ -1,10 +1,10 @@
 import { MetaHeader } from "~~/components/MetaHeader";
-import { Mint } from "~~/components/mint-ui/Mint";
-import { SwapDai } from "~~/components/mint-ui/SwapDai";
-import { SwapMhgd } from "~~/components/mint-ui/SwapMhgd";
-import { ApproveDai } from "~~/components/mint-ui/ApproveDai";
-import { ApproveMhgd } from "~~/components/mint-ui/ApproveMhgd";
-import { MintContractData } from "~~/components/mint-ui/MintContractData";
+import { Mint } from "~~/components/usdc-mint-ui/Mint";
+import { SwapUsdc } from "~~/components/usdc-mint-ui/SwapUsdc";
+import { SwapMhgd } from "~~/components/usdc-mint-ui/SwapMhgd";
+import { ApproveUsdc } from "~~/components/usdc-mint-ui/ApproveUsdc";
+import { ApproveMhgd } from "~~/components/usdc-mint-ui/ApproveMhgd";
+import { MintContractData } from "~~/components/usdc-mint-ui/MintContractData";
 import { NextPage } from "next";
 
 const ExampleUI: NextPage = () => {
@@ -12,7 +12,7 @@ const ExampleUI: NextPage = () => {
     <>
       <MetaHeader
         title="MHGD MINT | A MHGN Hoarder Labs Project"
-        description="Mint MHGD using DAI."
+        description="Mint MHGD using USDC."
       >
         {/* We are importing the font this way to lighten the size of SE2. */}
         <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -20,10 +20,10 @@ const ExampleUI: NextPage = () => {
       </MetaHeader>
       <div className="grid lg:grid-cols-1 items-center flex-grow" data-theme="exampleUi">
         <MintContractData />
-        <ApproveDai />
+        <ApproveUsdc />
         <ApproveMhgd />
         <Mint />
-        <SwapDai />
+        <SwapUsdc />
         <SwapMhgd />
       </div>
     </>
